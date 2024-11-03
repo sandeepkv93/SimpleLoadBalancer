@@ -254,27 +254,3 @@ public void checkNodeHealth() {
             .forEach(node -> loadBalancerService.removeNode(node.serviceId()));
 }
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## Future Improvements
-
-- Weighted round-robin support
-- Least connections algorithm
-- Sticky sessions
-- Circuit breaker implementation
-- Rate limiting
-- Enhanced metrics and monitoring
-- Configuration UI
-- SSL/TLS support
-- Custom health check endpoints
-
-## License
-
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
